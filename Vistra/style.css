@@ -39,7 +39,8 @@ body{
   left:-60%;
   padding:20px;
   color:white;
-  transition: 1.1s;
+  transition: 0.7s;
+  z-index:10;
 }
 .side-navbar-link{
   margin-bottom:30px;
@@ -101,12 +102,13 @@ body{
 .new-arrival-container{
   position:relative;
   flex-basis: 20%;
-  
+  z-index: 2;
   transition: transform 0.3s ease-in-out;
  
 }
 .new-arrival-container:hover{
   transform: scale(1.1);
+  z-index:2;
 }
 .new-arrival button{
   padding-left: 10%;
@@ -115,7 +117,6 @@ body{
   padding-bottom: 5%;
   margin-top:10px;
   color:#1D232c;
-
   border-radius: 10px;
   border:none;
 }
@@ -143,11 +144,13 @@ body{
   padding:10px;
   border-radius: 10px;
   transition: transform 0.2s ease-in-out;
+  z-index:2;
 
 }
 .news button:hover{
   cursor: pointer;
   transform: scale(1.04);
+  z-index:2;
 }
 /*Product*/
 .product-section{
@@ -163,12 +166,12 @@ body{
   align-items: center;
   padding:10px;
   margin: auto;
-  background-color: #1D232c;;
+  background-color:#F2F4F7;
 }
 .product-search input{
   border:none;
   background-color:transparent;
-  color:#F2F4F7;
+  color:#1D232c;
   width:100%;
   height:100%;
   font-size:12px;
@@ -190,11 +193,13 @@ body{
 .product-box{
   text-align: center;
   flex-basis:20%;
+  z-index:2;
   transition: transform 0.2s ease-in-out;
 }
 .product-box:hover{
   transform: scale(1.1);
   cursor: pointer;
+  z-index:2;
 
 }
 /*Contact*/
@@ -231,7 +236,7 @@ body{
   font-size: 20px;
   border-radius: 8px;
   margin-top: 30px;
-  padding:10px;
+  padding : 10px;
   resize: vertical;
 
 }
@@ -254,6 +259,7 @@ body{
   transition: transform 0.2s ease-in-out;
   text-align: center;
   align-items: center;
+  z-index;2;
 }
 .submit-button button:hover{
   transform: scale(1.07);
