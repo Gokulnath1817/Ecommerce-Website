@@ -231,6 +231,8 @@ body{
   font-size: 20px;
   border-radius: 8px;
   margin-top: 30px;
+  padding:10px;
+  resize: vertical;
 
 }
 .message-box textarea :focus{
