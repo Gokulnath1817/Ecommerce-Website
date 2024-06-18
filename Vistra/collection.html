@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <!--My CSS-->
+  <title>Vistra</title>
+  <link rel="icon" href="images/cloth icon.jpg">
+
+  <!--Google Fonts-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+
+  <!--Font awsome Icons-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+  <!--Navbar-->
+  <nav class="navbar">
+    <h1>Vistra</h1>
+    <div class="navbar-links">
+      <p class="navbar-link">
+        <a href="index.html">Home</a>
+      </p>
+      <p class="navbar-link">
+        <a href="collection.html">Collections</a>
+      </p>
+      <p class="navbar-link">
+        <a href="contact.html">Contact</a>
+      </p>
+
+    </div>
+    <div class="navbar-menu-toggle" onclick="shownavbar()">
+      <i class="fas fa-bars"></i>
+    </div>
+  </nav>
+    <!--Side Navbar-->
+    <div class="side-navbar">
+      <p style="text-align: right;" onclick="closenavbar()">
+        <i class="fa-solid fa-xmark"></i>
+      </p>
+      <div class="side-navbar-links">
+        <p class="side-navbar-link">
+          <a href="index.html">Home</a>
+        </p>
+        <p class="side-navbar-link">
+          <a href="collection.html">Collections</a>
+        </p>
+        <p class="side-navbar-link">
+          <a href="contact.html">Contact</a>
+        </p>
+      </div>
+    </div>
+  <!--Product-->
+  <div class="product-section">
+    <form class="product-search">
+      <input type="text" id="search" placeholder="Search for your favorite clothes">
+      <i class="fa-solid fa-magnifying-glass" style="color: white;"></i>
+    </form>
+    <div class="products" id="product">
+      <div class="product-box">
+        <img src="images/White Shirt.webp" style="width:250px;height:250px">
+        <p>White Shirt For Men</p>
+      </div>
+      <div class="product-box">
+        <img src="images/Black Shirt.webp" style="width:250px;height:250px">
+        <p>Black Shirt For Men</p>
+      </div>
+      <div class="product-box">
+        <img src="images/Red T Shirt.jpeg" style="width:250px;height:250px">
+        <p>Red T Shirt (UniSex)</p>
+      </div>
+      <div class="product-box">
+        <img src="images/Black t Shirt.png" style="width:250px;height:250px">
+        <p>Black T-Shirt (UniSex)</p>
+      </div>
+      <div class="product-box">
+        <img src="images/Red Chudidhar.webp" style="width:250px;height:250px">
+        <p>Red Chudidhar For Women</p>
+      </div>
+      <div class="product-box">
+        <img src="images/TOP AND BOTTOM FEMALE.jpg" style="width:250px;height:250px">
+        <p>Top & Bottom Set For Women</p>
+      </div>
+      <div class="product-box">
+        <img src="images/Denim Shirt.jpg" style="width:250px;height:250px">
+        <p>Denim Shirt For Men</p>
+      </div>
+      <div class="product-box">
+        <img src="images/Jeans.jpg" style="width:250px;height:250px">
+        <p>Jean Bottom (UniSex)</p>
+      </div>
+      <div class="product-box">
+        <img src="images/caual top.webp" style="width:250px;height:250px">
+        <p>Lycra Casual Shirt for Men</p>
+      </div>
+      <div class="product-box">
+        <img src="images/Shoe.png" style="width:250px;height:250px">
+        <p>Nike Shoes</p>
+      </div>
+      <div class="product-box">
+        <img src="images/new arrival 7.jpg" style="width:250px;height:250px">
+        <p>Hoodie For Men</p>
+      </div>
+      <div class="product-box">
+        <img src="images/new arrival 5.jpg" style="width:250px;height:250px">
+        <p>Nike Top & Bottom Set with a Pair of Shoe (UniSex) </p>
+      </div>
+    </div>
+    
+  </div>
+
+  </div>
+
+    <!--Footer-->
+    <div class="footer">
+      <div class="footer-container">
+        <div class="footer-box-1">
+          <h2 class="headingText">Vistra</h2>
+          <p>Enjoy your world of fashion and trends with Vistra!Let Your Fashion Rule The World.</p>
+          <div class="footer-icon-container">
+            <i class="fab fa-instagram" style="color:#ffffff;"></i>
+            <i class="fab fa-twitter" style="color:#ffffff;"></i>
+            <i class="fab fa-facebook" style="color:#ffffff;"></i>
+          </div>
+          <p>@2024 Vistra.com</p>
+        </div>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  <script src="collection.js"></script>
+</body>
+
+</html>

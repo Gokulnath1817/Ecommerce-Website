@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <!--My CSS-->
+  <title>Vistra</title>
+  <link rel="icon" href="images/home icon.jpg">
+
+  <!--Google Fonts-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+
+  <!--Font awsome Icons-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+  <!--Navbar-->
+  <nav class="navbar">
+    <h1>Vistra</h1>
+    <div class="navbar-links">
+      <p class="navbar-link">
+        <a href="index.html">Home</a>
+      </p>
+      <p class="navbar-link">
+        <a href="collection.html">Collections</a>
+      </p>
+      <p class="navbar-link">
+        <a href="contact.html">Contact</a>
+      </p>
+
+    </div>
+    <div class="navbar-menu-toggle" onclick="shownavbar()">
+      <i class="fas fa-bars"></i>
+    </div>
+  </nav>
+
+  <!--Side Navbar-->
+  <div class="side-navbar">
+    <p style="text-align: right;" onclick="closenavbar()">
+      <i class="fa-solid fa-xmark"></i>
+    </p>
+    <div class="side-navbar-links">
+      <p class="side-navbar-link">
+        <a href>Home</a>
+      </p>
+      <p class="side-navbar-link">
+        <a href>Collections</a>
+      </p>
+      <p class="side-navbar-link">
+        <a href>Contact</a>
+      </p>
+    </div>
+  </div>
+
+    <!-- Header -->
+    <div class="header">
+      <div>
+        <h1>Level Up Your Style</h1>
+        <p>with our stunning outfits</p>
+        <button class="header-button"><a href="collection.html">Shop Now</a></button>
+      </div>
+      <div class="header-image">
+        <img style="width:300px;height:350px" src="images/headerimage.jpg" alt="Header Image">
+      </div>
+    </div>
+    <!--Service-->
+    <div class="service">
+      <div class="service-container-1">
+        <div>
+          <h2>We Provide Best</h2>
+          <h2>Customer Experience</h2>
+        </div>
+        <div>
+          || we ensure that our customer have the best shopping experience
+        </div>
+      </div>
+
+      <div class="service-container-2">
+        <div>
+          <i class="fa-regular  fa-face-smile"></i>
+          <h4>Satisfaction Guarentee</h4>
+          <p>Enjoy the best phase of shopping with our high quality services</p>
+        </div>
+        <div>
+          <i class="fa-solid fa-shirt"></i>
+          <h4>New Arrival Everyday</h4>
+          <p>New trending outfits arrives daily to keep you with the trend!.</p>
+        </div>
+        <div>
+          <i class="fa-solid fa-person-running"></i>
+          <h4>Fast & Free Delivery  </h4>
+          <p>There is no extra charges for our delivery services!</p>
+        </div>
+
+      </div>
+    </div>
+    <!--New Arrival-->
+    <div style="padding:20px">
+      <h2>New Arrivals</h2>
+    </div>
+    <div class="new-arrival">
+      <div class="new-arrival-container">
+        <img style="width:250px;height:250px" src="images/new arrival 1.jpg" alt="">
+        <button>Shop Now  <i class="fa-solid fa-arrow-right"></i></button>
+      </div>
+      <div class="new-arrival-container">
+        <img style="width:250px;height:250px" src="images/new arrival 2.jpg" alt="">
+        <button>Shop Now <i class="fa-solid fa-arrow-right"></i></button>
+      </div>
+      <div class="new-arrival-container">
+        <img style="width:250px;height:250px" src="images/new arrival 3.jpg" alt="">
+        <button>Shop Now <i class="fa-solid fa-arrow-right"></i></button>
+      </div>
+      <div class="new-arrival-container">
+        <img style="width:250px;height:250px" src="images/new arrival 4.jpg" alt="">
+        <button>Shop Now <i class="fa-solid fa-arrow-right"></i></button>
+      </div>
+    </div>
+    <!--Most Wanted-->
+    <div style="padding:20px">
+      <h2>Most Wanted</h2>
+    </div>
+    <div class="new-arrival">
+      <div class="new-arrival-container">
+        <img style="width:250px;height:250px" src="images/new arrival 5.jpg" alt="">
+        <button>Shop Now <i class="fa-solid fa-arrow-right"></i></button>
+      </div>
+      <div class="new-arrival-container">
+        <img style="width:250px;height:250px" src="images/new arrival 6.jpg" alt="">
+        <button>Shop Now <i class="fa-solid fa-arrow-right"></i></button>
+      </div>
+      <div class="new-arrival-container">
+        <img style="width:250px;height:250px" src="images/new arrival 7.jpg" alt="">
+        <button>Shop Now <i class="fa-solid fa-arrow-right"></i></button>
+      </div>
+      <div class="new-arrival-container">
+        <img style="width:250px;height:250px" src="images/new arrival 8.jpg" alt="">
+        <button>Shop Now <i class="fa-solid fa-arrow-right"></i></button>
+      </div>
+    </div>
+    <!--News-->
+    <div class="news">
+      <h2>Join our news letter</h2>
+      <p>signup for our email newsletter to get exclusive updates on our trendy cloths and discounts</p>
+      <div>
+        <input type="text" class="search">
+      </div>
+      <div>
+        <button>Subscribe</button>
+      </div>
+    </div>
+    <!--Footer-->
+    <div class="footer">
+      <div class="footer-container">
+        <div class="footer-box-1">
+          <h2 class="headingText">Vistra</h2>
+          <p>Enjoy your world of fashion and trends with Vistra!Let Your Fashion Rule The World.</p>
+          <div class="footer-icon-container">
+            <i class="fab fa-instagram" style="color:#ffffff;"></i>
+            <i class="fab fa-twitter" style="color:#ffffff;"></i>
+            <i class="fab fa-facebook" style="color:#ffffff;"></i>
+          </div>
+          <p>@2024 Vistra.com</p>
+        </div>
+      </div>
+    </div>
+  <script src="index.js"></script>
+</body>
+
+</html>
